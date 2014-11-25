@@ -13,7 +13,8 @@
 		<div class="form-group">
 	    	<label for="name" class="col-sm-3 control-label">用户名<span class="notice">*</span></label>
 	    	<div class="col-sm-5">
-	      		<input type="text" class="form-control" id="name" name="name"  placeholder="用户名" />     		
+	      		<input type="text" class="form-control" id="name" name="name"  placeholder="用户名" />
+	      		<?php if(isset($repeat)) echo "<span class='notice'>*用户名已存在</span>"; ?>    		
 	   		</div>
 	  	</div>
 	  	<div class="form-group">

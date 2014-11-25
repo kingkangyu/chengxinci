@@ -329,6 +329,7 @@ class Admin extends CI_Controller {
 					$this->load->model('Homework');
 					$stu=$this->Homework->get_stu_nouser();
 					$data['stu']=$stu;
+					$data['repeat'] = 1;
 					$this->load->view("includes/headeradmin",$data);
 					$this->load->view("admin/newuser");
 					$this->load->view("includes/footer");
