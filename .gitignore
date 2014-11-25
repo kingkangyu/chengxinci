@@ -1,1 +1,12 @@
 cache
+.htaccess
+config
+core
+errors
+helpers
+hooks
+index.html
+language
+libraries
+logs
+third_party
